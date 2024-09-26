@@ -1,0 +1,46 @@
+.for {
+    background-image: url(1.png);
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-bottom: 50px; 
+}
+
+.con {
+    background-image: url(image.png);
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    margin-bottom: 50px; 
+}
+
+table {
+    margin-top: 30px;
+    background-color: white; 
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    color: black; /* Adjust text color if needed */
+}
+
+h1, h2 {
+    color: white; /* Make headings visible on black background */
+}
